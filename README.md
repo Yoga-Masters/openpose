@@ -2,7 +2,7 @@ Basic command to run
 
 ./path/to/openpose.exe --image_dir ./path_to_image --write_images ./path_to_directory --write_keypoint ./path_to_directory --display 0
 
-MAIN FLAGS (Important ones to note are **ed)
+## MAIN FLAGS (Important ones to note are **ed)
 
 	--face: Enables face keypoint detection.
 	
@@ -37,21 +37,21 @@ MAIN FLAGS (Important ones to note are **ed)
 	--logging_level 3: Logging messages threshold, range [0,255]: 0 will output any message & 255 will output none. Current messages in the range [1-4], 1 for low priority messages and 4 for important ones.
 	
 
-NOTES:
+## NOTES:
 
 This assumes you built Openpose with CMAKE already, downloaded the 3rd party dependencies, and imported the models. Haven't tried running this on the CPU version yet. 
 
 
-RESOURCES:
+## RESOURCES:
 
-Openpose main page
-https://github.com/CMU-Perceptual-Computing-Lab/openpose
+- Openpose main page
+	- https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
-Details on how to run Openpose
-https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/quick_start.md#quick-start
+- Details on how to run Openpose
+	- https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/quick_start.md#quick-start
 
-Installation of portable demo
-https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.2.1/doc/installation.md#installation---demo
+- Installation of portable demo
+	- https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.2.1/doc/installation.md#installation---demo
 
-Installation and building of source code
-https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation.md#installation
+- Installation and building of source code
+	- https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation.md#installation
