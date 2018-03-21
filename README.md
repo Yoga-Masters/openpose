@@ -8,19 +8,19 @@ MAIN FLAGS (Important ones to note are **ed)
 	
 	--hand: Enables hand keypoint detection.
 	
-**	--video input.mp4: Read video.
+	--video input.mp4: Read video. **
 
 	--camera 3: Read webcam number 3.
 	
-**	--image_dir path_to_images/: Run on a folder with images.
+	--image_dir path_to_images/: Run on a folder with images. **
 
 	--ip_camera http://iris.not.iac.es/axis-cgi/mjpg/video.cgi?resolution=320x240?x.mjpeg: Run on a streamed IP camera. See examples public IP cameras here.
 	
-**	--write_video path.avi: Save processed images as video.
+	--write_video path.avi: Save processed images as video. **
 
-**	--write_images folder_path: Save processed images on a folder.
+	--write_images folder_path: Save processed images on a folder. **
 
-**	--write_keypoint path/: Output JSON, XML or YML files with the people pose data on a folder.
+	--write_keypoint path/: Output JSON, XML or YML files with the people pose data on a folder. **
 
 	--process_real_time: For video, it might skip frames to display at real time.
 	
@@ -28,7 +28,7 @@ MAIN FLAGS (Important ones to note are **ed)
 	
 	--part_to_s	how: Prediction channel to visualize.	
 	
-**	--display 0	: Display window not opened. Useful for servers and/or to slightly speed up OpenPose.	
+	--display 0	: Display window not opened. Useful for servers and/or to slightly speed up OpenPose. **
 
 	--num_gpu 2 --num_gpu_start 1: Parallelize over this number of GPUs starting by the desired device id. By default it uses all the available GPUs.
 	
