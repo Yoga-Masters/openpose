@@ -1,4 +1,4 @@
-Basic command to run
+# Openpose Command to Run
 
 ./path/to/openpose.exe --image_dir ./path_to_image --write_images ./path_to_directory --write_keypoint ./path_to_directory --display 0
 
